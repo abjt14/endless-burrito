@@ -4,7 +4,7 @@ const imgParent = document.querySelector(".content");
 class imageElement {
   constructor() {
     this.repeatNumber = this.repeatImageNumber();
-    this.src = `/images/repeat-${this.repeatNumber}.png`;
+    this.src = `images/repeat-${this.repeatNumber}.png`;
     this.alt = `repeating section type ${this.repeatNumber}`;
 
     this.createElement();
