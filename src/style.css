@@ -2,7 +2,7 @@
   width: 100%;
   background-position: center;
   background-color: hsl(167deg 64% 20%);
-  background-image: url('images/background.png');
+  background-image: url('/endless-burrito/images/background.png');
 }
 
 .header {
