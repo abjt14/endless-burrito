@@ -1,0 +1,48 @@
+.wrapper {
+  width: 100%;
+  background-position: center;
+  background-color: hsl(167deg 64% 20%);
+  background-image: url('/images/background.png');
+}
+
+.header {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fbb954;
+  filter: drop-shadow(6px 6px 0px #6e2726);
+}
+
+.header .text {
+  font-size: 2.5rem;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content img {
+  object-fit: cover;
+  width: 320px;
+  height: 640px;
+  image-rendering: pixelated;
+}
+
+@media screen and (min-width: 600px) {
+  .header .text {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .header .text {
+    font-size: 10rem;
+  }
+}
