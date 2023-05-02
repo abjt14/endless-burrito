@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
+  <title>Endless Burrito</title>
+  <meta name="title" content="Endless Burrito">
+  <meta name="description" content="An useless website with an infinite burrito that you can scroll forever.">
+
+  <link rel="stylesheet" href="src/style.css">
+  <link href="https://fonts.cdnfonts.com/css/press-start" rel="stylesheet">
+  <style>
+		*,
+		*::before,
+		*::after {
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		html, body {
+			height: 100%;
+		}
+
+		html, body {
+			height: 100%;
+		}
+
+		html {
+			-ms-overflow-style: none;
+			scrollbar-width: none;
+			font-family: 'Press Start', sans-serif;
+		}
+
+    html::-webkit-scrollbar {
+      display: none;
+      -webkit-appearance: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <h1 class="text">
+        Endless Burrito
+      </h1>
+    </div>
+    <div class="content">
+      <img
+        src="/images/main.png"
+        alt="first part showing the top of the burrito"
+        loading="lazy"
+        class="main"
+        width="320"
+        height="640"
+      >
+      <img
+        src="/images/repeat-1.png"
+        alt="repeating section type 1"
+        loading="lazy"
+        class="repeat"
+        width="320"
+        height="640"
+      >
+      <img
+        src="/images/repeat-2.png"
+        alt="repeating section type 2"
+        loading="lazy"
+        class="repeat"
+        width="320"
+        height="640"
+      >
+      <img
+        src="/images/repeat-3.png"
+        alt="repeating section type 3"
+        loading="lazy"
+        class="repeat"
+        width="320"
+        height="640"
+      >
+    </div>
+  </div>
+  <script src="src/main.js"></script>
+</body>
+</html>
